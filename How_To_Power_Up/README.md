@@ -1,4 +1,4 @@
-#How to Provide Power to Your IR829 and IR809
+# How to Provide Power to Your IR829 and IR809
 
 When I received my [IR829](http://www.cisco.com/c/en/us/td/docs/routers/access/800/829/hardware/install/guide/829hwinst/pview.html) I opened the box with the expectation of
 taking it out, plugging it and starting to work with it. BUT, it was
@@ -9,7 +9,7 @@ If that happens to you, then what I have written here may help you.
 
 By the time my [IR809](http://www.cisco.com/c/en/us/products/collateral/routers/809-industrial-router/datasheet-c78-734980.html) arrived, I was mentally prepared.
 
-##What the IR829 is Supposed to do for Power
+## What the IR829 is Supposed to do for Power
 
 The IR829, as originally conceived, was designed to go into
 vehicles. To make that simple, it comes with an on-board power adapter
@@ -27,7 +27,7 @@ but with reference to a non-existent "DC Power section".
 Outside of the vehicle environment, though, 12v-24v, 5A, 60-120W power
 sources are not that common.
 
-##The Alternatives
+## The Alternatives
 
 Cisco has twodent part numbers for suitable PSUs: PWR-60W-AC, PWR-60W-AC-V2, and
 PWR-125W-AC=. The former supplies 60W, which is sufficient for the
@@ -51,7 +51,7 @@ to a wall socket. This is what you will need:
 
 ![Wall Power Cable](images/wall_power_cable.png)
 
-##Some Hacking Required to Use the Pre-Fitted Molex on the PWR-60W-AC-V2
+## Some Hacking Required to Use the Pre-Fitted Molex on the PWR-60W-AC-V2
 
 Sometimes hacking really is, in the physical sense, hacking. The
 picture below illustrates what I did to get the pre-fitted Molex plug
@@ -60,7 +60,7 @@ with some plastic cut off, and a plug without the plastic cut off.
 
 ![Adjusted Molex Plug](images/adjusted_molex_plug.jpeg)
 
-#DIY Required to Fit the Provided Molex to the PWR-60W-AC for the IR829
+# DIY Required to Fit the Provided Molex to the PWR-60W-AC for the IR829
 
 In the box with the IR829 I did find a four hole Molex plug and a strip of four
 metal pieces designed to clamp around cables and insert into the Molex
@@ -93,7 +93,7 @@ this (or perhaps even tidier):
 
 ![Taped](images/taped.png)
 
-#DIY Required to Fit the Provided Molex to the PWR-60W-AC for the IR809
+# DIY Required to Fit the Provided Molex to the PWR-60W-AC for the IR809
 
 The details for the IR809 are similar, in the sense that one has to
 strip off the plug and use the supplied, black four hole, plug to
