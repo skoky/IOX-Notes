@@ -1,4 +1,4 @@
-#How to Boot to IOS from rommon-2, and Not Have to do That Again
+# How to Boot to IOS from rommon-2, and Not Have to do That Again
 
 If, via the console, you see that your device is booting to the "rommon-2" prompt, and so not to IOS directly, 
 you can use these instructions to fix that. This may happen after you have reset the device, for example. 
