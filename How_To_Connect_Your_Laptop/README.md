@@ -1,4 +1,4 @@
-#How to Connect Your Laptop to an IR829 or an IR809
+# How to Connect Your Laptop to an IR829 or an IR809
 
 ![Laptop and IR829](./images/main.png)
 
@@ -40,7 +40,7 @@ images and/or GOS images as they are made available, using your laptop. See
 The rest of this post addresses the Ethernet IP connectivity for IOS and the GOS, and connecting to the Local 
 Manager web interface.
  
-##Ethernet IP Connectivity
+## Ethernet IP Connectivity
  
 Before I go into the details of the configuration, I will explain some of the characteristics of the 
 IR8x9 devices. One side of the IR829 has the mini-USB console port, where you will have connected the blue 
@@ -95,7 +95,7 @@ is a "!". If this goes wrong for any reason, don't worry, you can reset the devi
 in 
 [How to Reset the IR829 or IR809 to Factory Settings](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Reset_To_Factory_Settings/README.md)
  
-##Connecting to the GOS
+## Connecting to the GOS
  
 After having applied the configuration, the GOS should have been started automatically, and given the IP a
 ddress of 10.42.2.2 (unless you changed the configuration, in which case you know what the address will be). 
