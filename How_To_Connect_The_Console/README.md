@@ -1,4 +1,4 @@
-#How To Connect to the Console
+# How To Connect to the Console
 
 Console connectivity, with the mini-USB console cable, or a serial/USB adaptor, is the first step in getting a device booted with a suitable IOS image and
 configured for IP connectivity. If all else fails, the console connection will practically always work.
@@ -7,7 +7,7 @@ The blue mini-USB console cable that is included with the IR829/809 (and other 8
 
 I explain how to create console connections for Windows, OS X and Linux below.
 
-##How to use the IR829/809 Mini-USB Console Cable with Windows 10
+## How to use the IR829/809 Mini-USB Console Cable with Windows 10
 
 The two main aspects to think about when using Windows as a client for a console connection via the mini-USB cable are determining which COM port to connect to, and which terminal emulation software to use.
  
@@ -23,13 +23,13 @@ After changing the Serial line value, press return and a console window should a
  
 It is possible that the drivers required to make this work are not present in your copy of Windows. In which case you may need to install them. The drivers [here](https://software.cisco.com/download/release.html?mdfid=282867574&softwareid=282855122&release=3.1) may work for you.
 
-##How to use the IR829/809 Mini-USB Console Cable with Linux
+## How to use the IR829/809 Mini-USB Console Cable with Linux
 
 These [Cisco Console](https://help.ubuntu.com/community/CiscoConsole) instructions worked for me with `/dev/ttyUSB1`. Though the instructions are from the Ubuntu site, they should work just the same with pretty much any version of Linux. I tested them with the Ubuntu Desktop 14.04 LTS version of Linux.
  
 The [Minicom](https://en.wikipedia.org/wiki/Minicom) application used for illustration purposes is quite basic as terminal emulators go, so you might want to look at other Linux terminal emulators. There are plenty to choose from.
 
-##How to use the IR829/809 Mini-USB Console Cable with OSX El Capitan 10.11
+## How to use the IR829/809 Mini-USB Console Cable with OSX El Capitan 10.11
 
 The typical command to use with OSX is [screen](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/screen.1.html). For that to work properly on OSX El Capitan 10.11 I needed to install new [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx#mac). This was probably due to [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection), which was introduced in 10.11. 
 
@@ -51,7 +51,7 @@ A very good alternative is the [Serial](https://www.decisivetactics.com/products
  
 When using Serial you will need to open (Command-o) a terminal window, whereupon you will be presented with an "Open Port" window, which will allow you to select one of, in my case, two USB to UART bridges. In my case, it was #2 that worked. When then terminal window opens, you will need to open the settings (Command-;) and set the "Terminal Settings->Configuration" option to be "Cisco".
 
-##How to use a Serial-USB Console Cable with the IR829/809 and OSX El Capitan 10.11
+## How to use a Serial-USB Console Cable with the IR829/809 and OSX El Capitan 10.11
 
 A serial console cable can be used to connect to the IR829 (and other 800 series devices). Whilst I don't have this working yet, I have made some slight progress, and someone else might be able to fill in some blanks.
  
