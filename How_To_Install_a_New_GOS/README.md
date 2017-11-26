@@ -1,4 +1,4 @@
-#How to Install a New GOS
+# How to Install a New GOS
 
 The version of the GOS for your device will be updated during its 
 operational lifetime. Indeed, this is likely to happen a few times as you work through developing and 
